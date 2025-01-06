@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinícius Tobias</title>
+    <link rel="stylesheet" href="../Style/inicio.css">
+    <link rel="stylesheet" href="../Style/inicio-cell-model.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script defer src="../script/menu.js"></script>
+</head>
+<body style="background-color: #f5f5dc;">
+    <!-- Menu -->
+    <!-- <nav class="menu">
+        <header>
+            <div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#iddestaques">Destaque</a></li>
+                    <li><a href="#idsobremim">Sobre mim</a></li>
+                    <li><a href="#idcards">Estilos</a></li>
+                </ul>
+            </div>
+        </header>
+    </nav> -->
+
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-item"><a href="#iddestaques" class="nav-link">Destaques</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-item"><a href="#idsobremim" class="nav-link">Sobre mim</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFJJREFUSEtjZKAxYKSx+QyjFhAMYfoH0devd/4TdBYeBdzcKiiOxvABzS2gxPXY9NI/DmjuA5rHAc0toHkQDX0LaB4HNLdg6MfBqA/QQ4DmpSkAGNQYGReac4QAAAAASUVORK5CYII="/></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+            </ul>
+            <ul>
+                <li class="nav-item"><a href="#iddestaques" class="nav-link">Destaques</a></li>
+            </ul>
+            <ul>
+                <li class="nav-item"><a href="#idsobremim" class="nav-link">Sobre mim</a></li>
+            </ul>
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- Titulo -->
+    
+    <div class="iniciopagina">
+    
+        <div>
+            <div class="title" id="inicio">
+                <h1>Olá,<br>Sou Fotógrafo</h1>
+                <p>Seja bem-vindo ao meu portfólio! Fique à vontade e aproveite o conteúdo.</p>
+            </div>
+    
+            <div class="atalhogaleria">
+                <button onclick="window.location.href='outra-pagina.html';" class="btn">Entre em contato</button>
+            </div>
+        </div>
+    
+    
+        <!-- Carrossel -->
+    
+    
+        <div class="slider" id="iddestaques">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="../Photos/20200512140300__MG_6605.jpg" alt="imagem 1">
+                </div>
+                <div class="slide">
+                    <img src="../Photos/_MG_8771.JPG" alt="imagem 2">
+                </div>
+                <div class="slide">
+                    <img src="../Photos/20241223172247_IMG_7174.JPG" alt="imagem 3">
+                </div>
+                <div class="slide">
+                    <img src="../Photos/20241223171452_IMG_7118.JPG" alt="imagem 4">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-bnt1"></div>
+                    <div class="auto-bnt2"></div>
+                    <div class="auto-bnt3"></div>
+                    <div class="auto-bnt4"></div>
+                </div>
+    
+            </div>
+    
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    
+        <div class="destaqueinicio">
+
+            <h3>
+                Destaques do Portfólio
+            </h3>
+
+        </div>
+
+    </div>
+
+    <!-- Area de atuação -->
+
+    <div class="areaatuação">
+        <h3>Área que atuo na fotografia</h3>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards" id="idcards">
+        <div class="cardestilo">
+            <h4>
+                Casamento <br> ‎ 
+            </h4>
+            <p>
+                O casamento é um momento marcante, cheio de explosões de emoções que transformam memórias inesquecíveis.
+            </p>
+            <div  class="galeriabutton">
+                <button onclick="window.location.href='outra-pagina.html';" class="btn">Galeria</button>
+            </div>
+        </div>
+
+        <div class="cardestilo">
+            <h4>
+                Gestante <br> ‎ 
+            </h4>
+            <p>
+                Registrar a alegria de um momento único, cheio de emoção e amor, é o que torna fotografar gestantes tão especial.
+            </p>
+            <div  class="galeriabutton">
+                <button onclick="window.location.href='outra-pagina.html';" class="btn">Galeria</button>
+            </div>
+        </div>
+
+        <div class="cardestilo">
+            <h4>
+                Pet <br> ‎ 
+            </h4>
+            <p>
+                Nas fotos de pets, capturamos a energia, a lealdade e os momentos fofos, cheios de alegria.
+            </p>
+            <div  class="galeriabutton">
+                <button onclick="window.location.href='outra-pagina.html';" class="btn">Galeria</button>
+            </div>
+        </div>
+
+        <div class="cardestilo">
+            <h4>
+                Aniversários <br> ‎ 
+            </h4>
+            <p>
+                Momentos mágicos, sorrisos espontâneos e muita diversão – assim é o aniversário de criança, repleto de alegria e memórias felizes!
+            </p>
+            <div  class="galeriabutton">
+                <button onclick="window.location.href='outra-pagina.html';" class="btn">Galeria</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre mim -->
+    <div class="about-me" id="idsobremim">
+        <div class="foto-titulo">
+            <img src="../Photos/viniciusa.jpg" alt="Foto de vinicius">
+        </div>
+
+        <div class="sobremim">
+            <h2>Vinícius Tobias</h2>
+            <h3>
+                Sobre mim
+            </h3>
+            <p>
+                Me chamo Vinícius, tenho 20 anos e sou apaixonado por fotografia, especialmente por fotos espontâneas e de paisagens. Desde criança, a fotografia sempre foi meu hobby, e agora estou aqui, registrando momentos.
+            </p>
+        </div>
+    </div>
+
+    
+
+    <div class="rodape"></div>
+    
+    <script src="../script/menu.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>
