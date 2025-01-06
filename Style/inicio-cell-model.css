@@ -83,6 +83,13 @@
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 200px;
+        margin-top: 0;
+    }
+
+    .pre-destaqueinicio {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .destaqueinicio {
@@ -90,7 +97,7 @@
         justify-content: center;
         background-color: #2f4538;
         width: 350px;
-        margin: 100px 0px 0px 20px;
+        margin-top: 25px;
         padding: 10px 0px 5px 0px;
         border-radius: 10px 10px 0 0;
     }

@@ -102,8 +102,9 @@ html {
 
 /* Titulo */
 
+
 .title {
-    margin: 130px 0px 370px 200px;
+    margin: 0px 0px 370px 0px;
     width: 600px;
 }
 
@@ -117,18 +118,25 @@ html {
     color: #2f4538;
 }
 
+.iniciopagina {
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 100px;
+}
+
 /* Carrossel */
 
 .slider {
     margin: 0 auto;
-    width: 800px;
-    height: 533px;
+    width: 500px;
+    height: 333px;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .slides{
     width: 400%;
-    height: 533px;
+    height: 333px;
     display: flex;
 }
 
@@ -143,12 +151,12 @@ html {
 }
 
 .slide img{
-    width: 800px;
+    width: 500px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 500px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -196,7 +204,7 @@ html {
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 500px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
@@ -341,4 +349,8 @@ html {
     background-color: #2f4538;
     width: 100%;
     height: 50px;
+}
+
+.pre-destaqueinicio {
+    display: none;
 }
